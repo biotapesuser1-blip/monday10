@@ -1,25 +1,28 @@
 ---
-title: Welcome
-description: Your new docs site.
+title: Heroglyphs | Heroglyphs Protocol
 ---
 
-This is your new docs site. Open the [MD Docs editor](https://mddocs-site.redbeach-67793768.westus3.azurecontainerapps.io) and ask the AI to make changes — they'll show up here after you publish.
+## Heroglyphs
 
-## What's in this repo
+Heroglyph Protocol utilizes ***graffiti*** from a produced block to execute custom logic developed by anyone in the ecosystem. Our mission is to promote decentralization within the chain and to empower our heros, the validators.
 
-| File / folder | Purpose |
-| --- | --- |
-| `src/content/docs/` | Every page on the site. One markdown file per page. |
-| `astro.config.mjs` | Site title, navigation overrides, theme tweaks. |
-| `.github/workflows/deploy-pages.yml` | The GitHub Action that publishes to Pages on each push to `main`. |
+### 
 
-## Next steps
+The protocol operates through two modules:
 
-1. Replace this welcome page with your own content.
-2. Add more pages — drop a `.md` file anywhere under `src/content/docs/`. Folders become collapsible sidebar groups.
-3. Customize the site title in `astro.config.mjs`.
+1.  **Identity**: This is similar to an ENS (Ethereum Name Service), where you create an identity and link it to a wallet. Without one, heroglyph won't execute your produced block
+    
+2.  **Ticker**: This is similar to an **Identity** but for smart contracts. You don't technically own the ticker. It incorporates a Harberger tax and hijack system, meaning your ticker can be taken away either by someone buying it at your designated price or due to insufficient funds from the tax system.
+    
 
-## Resources
+### 
 
-- [Starlight docs](https://starlight.astro.build/)
-- [Markdown frontmatter reference](https://starlight.astro.build/reference/frontmatter/)
+Which module is intended for whom
+
+**Identity:** *As of right now*, this is only for Validator, but as soon the delegation system is out, it will be for anyone.
+
+**Ticker** is for Advanced Validators & Developers.
+
+-   Advanced Validator can use ticker in their advantage (by having a shorter name, or to assure it is always correctly configured)
+    
+-   Developers will need to own a ticker to connect their protocol to Heroglyphs Protocol.
